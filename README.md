@@ -1,6 +1,6 @@
-# agendamentoconsultas
+# Agendamento Consultas
 
-# Curso de JavaScript
+## Curso de JavaScript
 
-# Criação de uma aplicação de agendamento de consultas utilizando JavaScript.
+### Criação de uma aplicação de agendamento de consultas utilizando JavaScript.
 
