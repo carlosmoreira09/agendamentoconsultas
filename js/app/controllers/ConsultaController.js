@@ -13,7 +13,7 @@ class ConsultaController {
         this._listaConsultas = new ListaConsultas();
 
         this._consultasView = new ConsultasView(idconsulta);
-        this._consultasView.update(this._listaConsultas);
+      //  this._consultasView.update(this._listaConsultas);
 
         this._mensagem = new Mensagem();
         this._mensagemView = new Mensagem(idmensagem);
@@ -23,6 +23,13 @@ class ConsultaController {
 
     add(event) {
         event.preventDefault();
+        
+        var $ = document.querySelector.bind(document);
+        this._inputNome = $('#nome');
+        this._inputData = $('#data');
+        this._inputIdade = $('#idade');
+        this._inputPeso = $('#peso');
+        this._inputAltura = $('#altura');
 
         let consulta = new Consulta(
             this._inputNome.value,
